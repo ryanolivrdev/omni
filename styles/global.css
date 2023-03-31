@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font: 400 14px 'Roboto', sans-serif;
+  background: #f4f4f4;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button {
+  font: 400 18px 'Montserrat', sans-serif;
+}
+
+.clickable-svg {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .objectives-container h1,
+  .concept-container h1,
+  .groups-container h1
+  {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 0 40px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .objectives-container h1,
+  .concept-container h1,
+  .groups-container h1
+  {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 0 30px;
+  }
+}
